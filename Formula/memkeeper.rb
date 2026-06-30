@@ -9,20 +9,20 @@
 class Memkeeper < Formula
   desc "Local-first memory for AI agents: on-device hybrid retrieval over one SQLite file"
   homepage "https://github.com/teflon07/memkeeper"
-  version "0.2.10"
+  version "0.2.11"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/teflon07/memkeeper/releases/download/v0.2.10/memkeeper-v0.2.10-aarch64-apple-darwin.tar.gz"
-      sha256 "54a13c6f7b9e4bacc997d5d2af08b3d5c834e18c5bce08377eb267431ae1005f"
+      url "https://github.com/teflon07/memkeeper/releases/download/v0.2.11/memkeeper-v0.2.11-aarch64-apple-darwin.tar.gz"
+      sha256 "930356b15e26e11364199e4abefd018d39be3b1d93d05bfa6fc293a8c1ebb859"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/teflon07/memkeeper/releases/download/v0.2.10/memkeeper-v0.2.10-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c49ae6fc2071dfff57d40732b610769c8a30854b5923fa920dfb71138c6b6568"
+      url "https://github.com/teflon07/memkeeper/releases/download/v0.2.11/memkeeper-v0.2.11-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "29415684899b4fb893aab26a7a08ba42156ce84322792f069cc01703d5603edc"
     end
   end
 
